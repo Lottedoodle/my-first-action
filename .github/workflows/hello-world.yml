@@ -13,5 +13,8 @@ jobs:
 
 
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
       - name: Say Hello
         run: echo "Hello, Github Actions!"
